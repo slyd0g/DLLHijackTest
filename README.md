@@ -13,6 +13,6 @@
 	- ```-ProcessPath``` takes in a path to the executable you want to run
 	- ```-ProcessArguments``` takes in commandline arguments you want to pass to the executeable
 - View the contents of ```outputFile``` for found DLL hijacks
-	- Run ```strings``` on the ```outputFile``` to clean up the output paths
+	- Run ```strings.exe``` on the ```outputFile``` to clean up the output paths
 - Party!!!
 
