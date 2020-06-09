@@ -20,7 +20,6 @@ BOOL APIENTRY DllMain(HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
         hThread = CreateThread(NULL, 0, MyThread, NULL, 0, &dwThread);
-        //WaitForSingleObject(hThread, INFINITE);
         break;
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
