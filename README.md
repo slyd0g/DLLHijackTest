@@ -1,6 +1,6 @@
 # DLLHijackTest
 
-![Get-PotentialDLLHijack.ps1](https://raw.githubusercontent.com/slyd0g/DLLHijackTest/master/example.png?token=AFLJJJ5LBXAJDSBGC7JLPTC65Z6RY)
+![Get-PotentialDLLHijack.ps1](https://raw.githubusercontent.com/slyd0g/DLLHijackTest/master/example.png)
 
 ## Usage
 - Use ProcMon to obtain a CSV file of potential DLL hijacks
