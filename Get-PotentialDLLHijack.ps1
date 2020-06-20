@@ -1,5 +1,4 @@
 ﻿#Get-PotentialDLLHijack -CSVPath .\Logfile.CSV -MaliciousDLLPath .\DLLHijackTest.dll -ProcessPath "C:\Users\John\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-
 function Get-PotentialDLLHijack {
     param (
         [String]
@@ -11,6 +10,22 @@ function Get-PotentialDLLHijack {
         [String]
         $ProcessArguments = ""
     )
+    
+
+    if (-not (Test-Path $CSVPath))
+    {
+        Write-Host "[-] $CSVPath does not exist" -ForegroundColor Red
+        return
+
+    }
+
+    if (-not (Test-Path $MaliciousDLLPath))
+    {
+        Write-Host "[-] $MaliciousDLLPath does not exist" -ForegroundColor Red
+        return
+
+    }
+
 
     $PotentialHijackPath = @()
     Import-CSV $CSVPath | Foreach-Object {$PotentialHijackPath += $_.Path}
