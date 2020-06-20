@@ -1,5 +1,7 @@
 # DLLHijackTest
 
+![Get-PotentialDLLHijack.ps1](https://raw.githubusercontent.com/slyd0g/DLLHijackTest/master/example.png?token=AFLJJJ5LBXAJDSBGC7JLPTC65Z6RY)
+
 ## Usage
 - Modify ```outputFile``` variable within ```write.cpp```
 - Build the project for the appropriate architecture
