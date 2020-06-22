@@ -3,7 +3,7 @@
 ![Get-PotentialDLLHijack.ps1](https://raw.githubusercontent.com/slyd0g/DLLHijackTest/master/example.png)
 
 ## Usage
-- Use ProcMon to obtain a CSV file of potential DLL hijacks
+- Use Procmon to obtain a CSV file of potential DLL hijacks
 - Modify ```outputFile``` variable within ```write.cpp```
 - Build the project for the appropriate architecture
 - Open ```powershell.exe``` and load ```Get-PotentialDLLHijack.ps1``` into memory
