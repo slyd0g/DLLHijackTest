@@ -2,6 +2,9 @@
 
 ![Get-PotentialDLLHijack.ps1](https://raw.githubusercontent.com/slyd0g/DLLHijackTest/master/example.png)
 
+## Blogpost
+- https://posts.specterops.io/automating-dll-hijack-discovery-81c4295904b0
+
 ## Usage
 - Use Procmon to obtain a CSV file of potential DLL hijacks
 - Modify ```outputFile``` variable within ```write.cpp```
